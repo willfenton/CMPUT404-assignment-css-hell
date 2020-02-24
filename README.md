@@ -21,4 +21,9 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Changes Made to the Project Gutenberg eBooks
+============================================
 
+* Formatted the HTML
+* Removed any existing CSS
+* Added a link tag in the headers linking to my stylesheet
