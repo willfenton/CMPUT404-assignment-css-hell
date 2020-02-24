@@ -1,0 +1,104 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+
+    display: grid;
+
+    grid-template-columns: 1em 2fr 1em 1fr 1em;
+    grid-template-rows: 17em 1em auto 1em;
+    grid-template-areas: 
+    "header header header header header"
+    ". . . . ."
+    ". info . sidebar ."
+    ". . . . .";
+
+    background-color: white;
+
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: black;
+}
+
+img {
+    image-orientation: from-image;
+}
+
+.headshot {
+    height: 15em;
+    width: 15em;
+
+    padding: 0.75em;
+
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.name {
+    font-size: 5em;
+
+    margin: auto;
+
+    /* font-weight: bold; */
+
+    background-image: linear-gradient(to right, yellow, yellow, orange, red, purple, indigo);   -webkit-background-clip: text;
+    color: transparent;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    grid-area: header;
+
+    background-color: #0372FF;
+}
+
+.info {
+    grid-area: info;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+.section {
+    /* background-color: lightgray; */
+    padding: 1em;
+
+    font-size: large;
+}
+
+.section-title {
+    margin: 0;
+    padding-bottom: 0.25em;
+}
+
+.section-body {
+    margin: 0;
+}
+
+li.section-body {
+    padding-bottom: 0.5em;
+}
+
+.space {
+    height: 1em;
+}
+
+.sidebar {
+    grid-area: sidebar;
+
+    background-color: #FFCC00;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
