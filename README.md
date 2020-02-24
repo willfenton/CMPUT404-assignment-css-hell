@@ -21,6 +21,10 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+`homepage` and `gutenberg/style.css` are copyright Will Fenton (C) 2020 under the CC-BY-SA
+4.0 unported license. Attribution should be a hyperlink to the
+repository and (C) 2020 Will Fenton visibile in the text.
+
 eBook Sources
 ============================================
 
