@@ -21,6 +21,15 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+eBook Sources
+============================================
+
+1. [Siddhartha](https://www.gutenberg.org/ebooks/2500) by Herman Hesse
+
+2. [Frankenstein](https://www.gutenberg.org/ebooks/42324) by Mary Shelley
+
+3. [The Odyssey](https://www.gutenberg.org/ebooks/1727) by Homer
+
 Changes Made to the Project Gutenberg eBooks
 ============================================
 
