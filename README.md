@@ -25,5 +25,8 @@ Changes Made to the Project Gutenberg eBooks
 ============================================
 
 * Formatted the HTML
-* Removed any existing CSS
-* Added a link tag in the headers linking to my stylesheet
+* Removed included CSS from the heads
+* Modified `<img>` and `<link>` HTML tags to use the downloaded assets
+* Added link to `style.css` to all heads
+* Added link to a google font in all heads
+* Removed existing image containers, put all `<img>` tags in `<div class="figure">` divs

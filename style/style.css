@@ -1,9 +1,0 @@
-body {
-    display: flex;
-    flex-direction: column;
-
-    color: black;
-    background-color: lightyellow;
-
-    font-family: 'Times New Roman', Times, serif;
-}
